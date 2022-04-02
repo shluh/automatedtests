@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ShopCartTestes" >
+  <test name="TestShoprcart Desafio01e02"  verbose="2" parallel="tests" thread-count="2" >
+    <classes>
+      <class name="testcases.FluxoDeCompra"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
