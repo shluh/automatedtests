@@ -1,0 +1,10 @@
+http://elementalselenium.com/tips/37-oop
+
+Essentially, there are three levels of test classes:
+
+a single base class (contains common aspects of all tests)
+one or more intermediate test classes (contains common actions for related groups of tests)
+actual test classes (where tests live and run)
+
+
+ADD=> Install-Package Microsoft.Extensions.Configuration -Version 2.2.0

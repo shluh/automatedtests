@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="regressionTests.TC001_LoginTest_AllowedUsers"/>
+      <class name="regressionTests.TC002_LoginTest_DeniedUsers"/>
+      <class name="regressionTests.TC003_InvoiceInformationsValidation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

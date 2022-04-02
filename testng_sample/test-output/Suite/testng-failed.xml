@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="regressionTests.TC002_LoginTest_DeniedUsers">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="Login_InvalidCredentials"/>
+        </methods>
+      </class> <!-- regressionTests.TC002_LoginTest_DeniedUsers -->
+      <class name="regressionTests.TC003_InvoiceInformationsValidation">
+        <methods>
+          <include name="afterClass"/>
+          <include name="InvoiceInformations"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- regressionTests.TC003_InvoiceInformationsValidation -->
+      <class name="regressionTests.TC001_LoginTest_AllowedUsers">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="Login_ValidCredentials"/>
+        </methods>
+      </class> <!-- regressionTests.TC001_LoginTest_AllowedUsers -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

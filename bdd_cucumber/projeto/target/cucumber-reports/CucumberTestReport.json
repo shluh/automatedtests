@@ -1,0 +1,143 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Eu sou um associado",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "gostaria de fazer uma simulacao de poupança",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "ver a tabela de resultado com mes e Valor.",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Simulacao Poupanca",
+        "description": "",
+        "id": "simular-investimento;simulacao-poupanca",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "A pagina de simulacao carregada",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "eu sou um associado",
+            "match": {
+              "location": "StepDefinitions.eu_sou_um_associado()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "preencho os valores abaixo para simular",
+            "match": {
+              "location": "StepDefinitions.preencho_os_valores_abaixo_para_simular()"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "valor_aplicar",
+                  "valor_poupar",
+                  "qtde_Dia_Ano",
+                  "mes_Ano"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "1500.0",
+                  "500.0",
+                  "5",
+                  "Ano"
+                ],
+                "line": 20
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "clico no botao para simular",
+            "match": {
+              "location": "StepDefinitions.clico_no_botao_para_simular(int,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "eu vejo a tabela de resultado com mes valor de opcoes para simular",
+            "match": {
+              "location": "StepDefinitions.eu_vejo_a_tabela_de_resultado_com_mes_valor_de_opcoes_para_simular()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@SimulacaoPoupanca"
+          }
+        ]
+      }
+    ],
+    "name": "Simular Investimento",
+    "description": "Com o proposito de Simular um Investimento na Poupanca\r\ncomo um Associado,\r\neu gostaria de preencher o formulario de simulacao\r\ne ver a tabela de resultado com mes e Valor.",
+    "id": "simular-investimento",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/SimuladorDeInvestimento.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@SimulacaoInvestimentoPoupanca"
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="SimulacaoUI_API">
+    <classes>
+      <class name="regressionsuite.TC001_SimulaPoupanca"/>
+      <class name="webservicesuite.ConsultaValorSimulacao"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

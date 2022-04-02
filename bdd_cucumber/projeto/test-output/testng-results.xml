@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13365" started-at="2019-01-24T17:23:20Z" finished-at="2019-01-24T17:23:33Z">
+    <groups>
+    </groups>
+    <test name="SimulacaoUI_API" duration-ms="13365" started-at="2019-01-24T17:23:20Z" finished-at="2019-01-24T17:23:33Z">
+      <class name="webservicesuite.ConsultaValorSimulacao">
+        <test-method status="PASS" signature="ConsultaValorPoupanca()[pri:0, instance:webservicesuite.ConsultaValorSimulacao@3f4d3d]" name="ConsultaValorPoupanca" duration-ms="638" started-at="2019-01-24T15:23:33Z" finished-at="2019-01-24T15:23:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConsultaValorPoupanca -->
+      </class> <!-- webservicesuite.ConsultaValorSimulacao -->
+      <class name="regressionsuite.TC001_SimulaPoupanca">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:regressionsuite.TC001_SimulaPoupanca@1baeedf]" name="setUp" is-config="true" duration-ms="10428" started-at="2019-01-24T15:23:20Z" finished-at="2019-01-24T15:23:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="config()[pri:0, instance:regressionsuite.TC001_SimulaPoupanca@1baeedf]" name="config" is-config="true" duration-ms="16" started-at="2019-01-24T15:23:30Z" finished-at="2019-01-24T15:23:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="SimulaPoupanca(java.lang.String, double, double, int, java.lang.String)[pri:0, instance:regressionsuite.TC001_SimulaPoupanca@1baeedf]" name="SimulaPoupanca" duration-ms="1386" started-at="2019-01-24T15:23:30Z" data-provider="InvestimentoPoupanca" finished-at="2019-01-24T15:23:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[paraVoce]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Anos]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SimulaPoupanca -->
+        <test-method status="PASS" signature="config()[pri:0, instance:regressionsuite.TC001_SimulaPoupanca@1baeedf]" name="config" is-config="true" duration-ms="0" started-at="2019-01-24T15:23:32Z" finished-at="2019-01-24T15:23:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="SimulaPoupancaValoresMinimos(java.lang.String, double, double)[pri:0, instance:regressionsuite.TC001_SimulaPoupanca@1baeedf]" name="SimulaPoupancaValoresMinimos" duration-ms="829" started-at="2019-01-24T15:23:32Z" data-provider="ValorMinimo" finished-at="2019-01-24T15:23:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[paraVoce]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SimulaPoupancaValoresMinimos -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:regressionsuite.TC001_SimulaPoupanca@1baeedf]" name="tearDown" is-config="true" duration-ms="45" started-at="2019-01-24T15:23:32Z" finished-at="2019-01-24T15:23:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- regressionsuite.TC001_SimulaPoupanca -->
+    </test> <!-- SimulacaoUI_API -->
+  </suite> <!-- Suite -->
+</testng-results>
